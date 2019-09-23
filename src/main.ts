@@ -10,6 +10,13 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule);
 
+// document.addEventListener("DOMContentLoaded", function(event) {
+//   platformBrowserDynamic().bootstrapModule(AppModule);
+// });
+
+
+
+
 
 /*
 Copyright Google LLC. All Rights Reserved.
